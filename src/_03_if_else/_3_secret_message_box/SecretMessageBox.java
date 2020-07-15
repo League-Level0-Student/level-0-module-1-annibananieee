@@ -15,6 +15,16 @@ import javax.swing.JOptionPane;
  */
 
 public class SecretMessageBox {
+	public static void main(String[] args) {
+		//step 1
+		String password = "password";
+		//step 2
+		//step 3
+		//step 4
+		//step 5
+	}
+}
+
 
 	// 0. Make a main method and put steps 1-5 inside it
 	
