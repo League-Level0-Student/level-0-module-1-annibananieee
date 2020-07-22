@@ -19,10 +19,18 @@ public class SecretMessageBox {
 		//step 1
 		String password = "password";
 		//step 2
+		String input = JOptionPane.showInputDialog("can i have a secret message");
 		//step 3
+		String input1 = JOptionPane.showInputDialog("you can only see the secret message if you guess the password");
 		//step 4
+		if (input1.equals(password)) {
+			JOptionPane.showMessageDialog(null, input);
+		}
 		//step 5
-	}
+		else {
+			JOptionPane.showMessageDialog(null, "INRUDER!");
+		}
+			
 }
 
 
